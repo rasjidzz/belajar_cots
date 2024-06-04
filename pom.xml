@@ -34,12 +34,12 @@
     </repository>
   </distributionManagement>
 
-    <properties>
+<!--     <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <sonar.organization>akunmkepl</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
- </properties>
+ </properties> -->
 
     
     <properties>
@@ -47,5 +47,10 @@
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <exec.mainClass>com.mycompany.belajar_cots.Belajar_cots</exec.mainClass>
+
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <sonar.organization>rasjidzz</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 </project>
