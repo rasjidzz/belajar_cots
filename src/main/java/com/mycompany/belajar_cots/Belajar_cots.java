@@ -22,6 +22,10 @@ public class Belajar_cots {
         System.out.println("Penjumlahan 5 + 5 = 10, actual : " + cal1.getHasil());
         
         cal1.resetHasil();
+        cal1.resetHasil(); // CONTOH UNTUK DUPLIKASI KODE CODE SMELLS
+        cal1.resetHasil(); // CONTOH UNTUK DUPLIKASI KODE CODE SMELLS
+        cal1.resetHasil(); // CONTOH UNTUK DUPLIKASI KODE CODE SMELLS
+        
         cal1.pengurangan(10, 5);
         System.out.println("Pengurangan 10 - 5 = 5, actual : "+ cal1.getHasil());
         
