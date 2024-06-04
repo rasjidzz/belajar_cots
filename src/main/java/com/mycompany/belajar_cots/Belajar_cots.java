@@ -14,6 +14,7 @@ public class Belajar_cots {
 
     public static void main(String[] args) {
         System.out.println("Muhammad Risjad Shidqi Febian - COTS - Calculator");
+        System.out.println("MANAJEMEN KONFIGURASI REKAYASA PERANGKAT LUNAK");
         
         Calculator cal1 = new Calculator();
         
